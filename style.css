@@ -1,0 +1,74 @@
+#fnord-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.fnord-field {
+    margin-bottom: 20px;
+}
+
+.fnord-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.fnord-field input[type="url"],
+.fnord-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.fnord-field textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+.fnord-submit {
+    background: #0073aa;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.fnord-submit:hover {
+    background: #005b82;
+}
+
+#fnord-results {
+    margin-top: 20px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+#fnord-results h2,
+#fnord-results h3 {
+    margin-top: 0;
+}
+
+#fnord-results ul {
+    list-style: none;
+    padding: 0;
+}
+
+#fnord-results li {
+    margin-bottom: 10px;
+}
+
+#fnord-results canvas {
+    max-width: 400px;
+    margin: 20px auto;
+    display: block;
+}
